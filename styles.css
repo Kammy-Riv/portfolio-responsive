@@ -1,0 +1,97 @@
+:root {
+  --primary-color: #8A2BE2;
+  --secondary-color: #2D8EBD;
+  --accent-color: #E8F044;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+h1,
+h2,
+h3 {
+
+  margin: 0;
+}
+
+h1 {
+  font-size: 96px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+}
+.nav-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.nav-links a {
+  margin: 20px;
+
+}
+
+body {
+  margin-top: 100px;
+}
+
+.primary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: var(--accent-color);
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+.secondary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  border: 1px solid #c6de41;
+  color: var(--primary-color);
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+.homepage-link {
+  color: var(--primary-color);
+  text-align: center;
+  display: block;
+}
+
+p {
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  color: var(--primary-color);
+
+}
+
+.about-par {
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.about-par p {
+  margin: 10px;
+
+}
+
+.email-link {
+  text-align: center;
+  display: block;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
